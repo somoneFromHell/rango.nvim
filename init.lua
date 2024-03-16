@@ -47,7 +47,7 @@ require("lazy").setup({
 	--
 	--  This is equivalent to:
 	--    require('Comment').setup({})
-
+	{ "ellisonleao/glow.nvim", config = true, cmd = "Glow" },
 	{
 		"windwp/nvim-autopairs",
 		event = "InsertEnter",

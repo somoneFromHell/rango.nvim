@@ -55,6 +55,9 @@ require("lazy").setup({
 		-- use opts = {} for passing setup options
 		-- this is equalent to setup({}) function
 	},
+
+	{ "windwp/nvim-ts-autotag", opts = {} },
+
 	-- "gc" to comment visual regions/lines
 	{ "numToStr/Comment.nvim", opts = {} },
 
